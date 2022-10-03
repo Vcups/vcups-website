@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Lobster-Regular;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: RubikDirt-Regular;
+    src: url(../fonts/RubikDirt-Regular.ttf);
+}
+
+@font-face {
+    font-family: Teko-Regular;
+    src: url(../fonts/Teko-Regular.ttf);
+}
+
+@font-face {
+    font-family: Play-Regular;
+    src: url(../fonts/Play-Regular.ttf);
+}
+
+@font-face {
+    font-family: LondrinaOutline-Regular;
+    src: url(../fonts/LondrinaOutline-Regular.ttf);
+}
+
+@font-face {
+    font-family: Parisienne-Regular;
+    src: url(../fonts/Parisienne-Regular.ttf);
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.navbar-inner {
+    background: transparent;
+}
+
+.hero {
+    background-image: url(../images/bg2.jpg);
+    height: 925px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-bottom-color: rgba(184, 8, 8, 0.404);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.centered-text {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: RubikDirt-Regular;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 25px;
+    left: 16px;
+    color: rgb(255, 255, 255);
+
+}
+
+.how-section1 {
+    margin-top: 2%;
+    padding: 10%;
+}
+
+.how-section1 h4 {
+    color: rgba(212, 6, 6, 0.767);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Play-Regular;
+}
+
+.how-section1 p {
+    color: white;
+    font-weight: lighter;
+}
+
+.how-section1 .subheading {
+    color: white;
+    font-size: 20px;
+}
+
+.how-section1 .row {
+    margin-top: 5%;
+}
+
+.how-img {
+    text-align: center;
+}
+
+.how-img img {
+    width: 75%;
+}
+
+.letter {
+    border: 2px;
+    border-color: black;
+    text-align: center;
+    color: rgb(20, 20, 20);
+    font-size: 40px;
+    font-family: Parisienne-Regular;
+    padding: 40px;
+}
+
+.fa-cog {
+    color: rgb(233, 199, 10);
+}
+
+@media only screen and (max-width: 600px) {
+    .letter {
+        border: 2px;
+        border-color: black;
+        text-align: center;
+        color: rgb(20, 20, 20);
+        font-size: 20px;
+        font-family: Parisienne-Regular;
+        padding: 15px;
+    }
+}
